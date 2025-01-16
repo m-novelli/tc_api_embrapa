@@ -96,6 +96,11 @@ def conteudo():
         type: string
         required: true
         description: URL da página web para extrair o conteúdo.
+      - name: token
+        in: query
+        type: string
+        required: true
+        description: Token de acesso.
     responses:
       200:
         description: Conteúdo da página web.
