@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from funcao_link import webscrap, webscrap_title
+from api.funcao_link import webscrap, webscrap_title
 from flasgger import Swagger
 from flask_httpauth import HTTPBasicAuth
 
