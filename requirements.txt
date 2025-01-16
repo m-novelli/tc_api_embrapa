@@ -3,3 +3,4 @@ flasgger
 flask_httpauth
 pandas
 requests
+bs4
