@@ -22,7 +22,7 @@ def verify_password(username, password):
   return None
 
 @app.route('/')
-@auth.login_required
+#@auth.login_required
 def home():
     return "Bem vindo a Embrapa-API"
 
