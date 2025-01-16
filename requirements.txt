@@ -2,3 +2,4 @@ Flask
 flasgger
 flask_httpauth
 pandas
+requests
