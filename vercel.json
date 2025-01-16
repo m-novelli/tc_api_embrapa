@@ -5,6 +5,8 @@
         "src": "api/app_token.py",
         "use": "@vercel/python"
       }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "app_token.py" }
     ]
-  }
-  
+}
