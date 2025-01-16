@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "api/app_token.py",
+        "src": "./app_token.py",
         "use": "@vercel/python"
       }
     ],
